@@ -9,4 +9,4 @@ LDFLAGS += `pkg-config gtk+-2.0 --libs`
 all: $(APPS) 
 
 clean:
-	rm -f $(APPS)
+	$(RM) $(APPS)

@@ -9,4 +9,4 @@ LDFLAGS += `pkg-config cairo --libs`
 all: $(APPS) 
 
 clean:
-	rm -f $(APPS)
+	$(RM) $(APPS)

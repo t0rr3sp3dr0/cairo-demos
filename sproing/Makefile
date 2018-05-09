@@ -9,4 +9,4 @@ objs = sproing.o
 $(target) : $(objs)
 
 clean :
-	rm $(target) $(objs)
+	$(RM) $(target) $(objs)

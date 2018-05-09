@@ -10,9 +10,10 @@ gtk_slide: $(OBJS)
 	$(CC) -o $@ $(OBJS) $(LIBS) $(LDFLAGS)
 	@echo
 
-clean:	
-	rm -f *~ gtk_slide .depend *.o *.orig
 dep: 
 	$(MAKE) .depend
 .depend: $(SRCS) *.c *.h
 	$(CC) -MM $(CFLAGS) $(SRCS) 1>.depend
+
+clean:	
+	$(RM) *~ gtk_slide .depend *.o *.orig

@@ -21,4 +21,4 @@ all: ${EXAMPLES}
 	$(CC) $(CFLAGS) $(CPPFLAGS) ${MYCFLAGS} ${MYLDFLAGS} $^ -o $@
 
 clean:
-	rm -f ${EXAMPLES} *.o
+	$(RM) ${EXAMPLES} *.o

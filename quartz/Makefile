@@ -14,4 +14,4 @@ fdclock: main.o fdface.o fdhand.o fdlogo.o
 	${CC} ${LDFLAGS} -o $@ $^ -framework Carbon
 
 clean:
-	rm -f fdclock *.o
+	$(RM) fdclock *.o

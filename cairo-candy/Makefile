@@ -25,5 +25,5 @@ $(APP_2):  $(OBJ_2)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ_1) $(OBJ_2) *~ $(APP_1) $(APP_2)
+	$(RM) $(OBJ_1) $(OBJ_2) *~ $(APP_1) $(APP_2)
 

@@ -9,4 +9,4 @@ all: kapow
 kapow : kapow.o
 
 clean :
-	rm kapow.o kapow
+	$(RM) kapow.o kapow

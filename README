@@ -8,7 +8,17 @@ programs. Just type:
 
 	make
 
-The demos in the png each draw to an in-memory image, then save that
+Questions or comments may be directed to the cairo@cairographics.org
+mailing list:
+
+	http://cairographics.org/cgi-bin/mailman/listinfo/cairo
+
+Have fun.
+
+png
+===
+
+The demos in the png directory each draw to an in-memory image, then save that
 image as a PNG file. These demos were created for the Cairo (Xr) paper
 presented at the 2003 Ottawa Linux Symposium. They were intentionally
 designed to showcase individual features of Cairo in a very simple
@@ -22,14 +32,20 @@ in the paper which is available online:
 	but with a simple mental substitution, it should still be easy
 	to understand).
 
+X11
+===
+
 The demos in the X11 directory use Cairo's X11 backend to draw to a
 window. Some of the examples (eg. cairo-freq and cairo-knockout)
 automatically scale the drawing to fit the window. The cairo-spline
 demo allows the user to interact with a mouse.
 
-Questions or comments may be directed to the cairo@cairographics.org
-mailing list:
 
-	http://cairographics.org/cgi-bin/mailman/listinfo/cairo
+projection
+==========
 
-Have fun.
+The projection directory includes several demonstrations of the
+cairo_matrix3_t functionality, including basic geometry, font/text, and
+stroking.
+
+

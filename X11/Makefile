@@ -21,6 +21,6 @@ all: $(PROGS)
 	$(CC) $(CFLAGS) $(CPPFLAGS) ${MYCFLAGS} ${MYLDFLAGS} $^ -o $@
 
 clean:
-	rm -f $(PROGS) *.o
+	$(RM) $(PROGS) *.o
 
 
